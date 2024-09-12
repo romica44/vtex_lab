@@ -1,0 +1,54 @@
+{
+    "slider-layout#products": {
+      "children": [
+        "image#brand1",
+        "image#brand2",
+        "image#brand3",
+        "image#brand4",
+        "image#brand5"
+      ],
+      "props": {
+        "autoplay": {
+          "timeout": 7000, 
+          "stopOnHover": true
+        },
+        "showNavigation": true, 
+        "showIndicators": true 
+      }
+    },
+    "image#brand1": {
+      "props": {
+        "src": "https://images.pexels.com/photos/1097648/pexels-photo-1097648.jpeg",
+        "alt": "Brand 1",
+        "maxWidth": "100%"
+      }
+    },
+    "image#brand2": {
+      "props": {
+        "src": "https://images.pexels.com/photos/1987010/pexels-photo-1987010.jpeg",
+        "alt": "Brand 2",
+        "maxWidth": "100%"
+      }
+    },
+    "image#brand3": {
+      "props": {
+        "src": "https://images.pexels.com/photos/61127/pexels-photo-61127.jpeg",
+        "alt": "Brand 3",
+        "maxWidth": "100%"
+      }
+    },
+    "image#brand4": {
+      "props": {
+        "src": "https://images.pexels.com/photos/672101/pexels-photo-672101.jpeg",
+        "alt": "Brand 4",
+        "maxWidth": "100%"
+      }
+    },
+    "image#brand5": {
+      "props": {
+        "src": "https://images.pexels.com/photos/89778/strawberries-frisch-ripe-sweet-89778.jpeg",
+        "alt": "Brand 5",
+        "maxWidth": "100%"
+      }
+    }
+  }

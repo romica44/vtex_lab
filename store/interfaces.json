@@ -1,0 +1,9 @@
+{
+    "promo-banner": {
+        "component": "PromoBanner"
+    },
+    "nosotros-page":{
+        "component": "Nosotros"
+    }
+
+}

@@ -1,0 +1,174 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text",
+      "modal-trigger#first",
+      "info-card#button-right",
+      "info-card#button-left",
+      "flex-layout",
+      "flex-layout.row",
+      "slider-layout#products",
+       "promo-banner"
+      // "list-context.product-list#demo1"
+      
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "Bienvenidos!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "modal-trigger#first": {
+    "children": [
+      "rich-text#trigger",
+      "modal-layout#first"
+    ]
+  },
+  "rich-text#trigger": {
+    "props": {
+      "text": "CIBERMONDAY",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "textColor": "white-90", 
+      "backgroundColor": "danger", 
+      "borderColor": "black-90", 
+      "borderWidth": "2px", 
+      "borderStyle": "solid", 
+      "borderRadius": "8px", 
+      "padding": "10px", 
+      "font": "t-heading-5"
+    }
+  },
+  "modal-layout#first": {
+   "children": [
+      "image#modal-image"
+      // "promo-banner"
+   ]
+ },
+ "image#modal-image": {
+   "props": {
+    "src": "https://resizer.iproimg.com/unsafe/1280x/filters:format(webp)/https://assets.iproup.com/assets/jpg/2021/10/23322.jpg",
+    "alt": "Cibermonday Image",
+    "style": {
+      "width": "30%",
+      "height": "30%"
+    }
+   }
+ },
+  "info-card#button-right": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://st2.depositphotos.com/1177973/7347/i/450/depositphotos_73478661-stock-photo-still-life-of-preparing-pasta.jpg",
+      "headline": "Elaboración de Pastas Artesanales",
+      "subhead": "Experimenta el sabor de la Pasta Italia de la mano de nuestas pastas caseras",
+      "callToActionMode": "button",
+      "callToActionText": "Ingresa aqui",
+      "callToActionUrl": "/sale/pasta",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#button-left": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://media.mondoconv.es/media/catalog/product/cache/9183606dc745a22d5039e6cdddceeb98/L/X/LX6T_1LVL.jpg",
+      "headline": "Renová tu muebles de dormitorio",
+      "subhead": "Poseemos una gran variedad de diseños para tu dormitorio",
+      "callToActionMode": "button",
+      "callToActionText": "Ingresa aqui",
+      "callToActionUrl": "/sale/muebles",
+      "textAlignment": "center"
+    }
+  }
+  
+  // "product-summary#product-1": {
+  //   "props": {
+  //     "name": "Notebook",
+  //     "price": "2.200.000",
+  //     "image": "https://p1-ofp.static.pub//medias/26170003660_newRGB_202311090949061710515717546.png",
+  //     "description": "Legion 5i Gen 9 Intel con RTX 4060",
+  //     "id": "product-1"
+  //   }
+  // },
+  // "product-summary#product-2": { 
+  //   "props": {
+  //     "name": "Tv Samsung",
+  //     "price": "10.000.000",
+  //     "image": "https://multipoint.com.ar/Image/0/700_700-1145(1)jpg",
+  //     "description": "Tv Samsung 85 pulg Neo QLED 8K QN800B",
+  //     "id": "product-2"
+  //   }
+  // },
+  // "product-summary#product-3": {
+  //   "props": {
+  //     "name": "Celular Galaxy",
+  //     "price": "300.000",
+  //     "image": "https://multipoint.com.ar/Image/0/700_700-a236.jpg",
+  //     "description": "Celular Samsung Galaxy A15 128/4GB Negro Azulado",
+  //     "id": "product-3"
+  //   }
+  // }
+  // "product-summary.shelf": {
+  //   "children": [
+  //     "product-summary-name",
+  //     "product-summary-space",
+  //     "product-summary-price",
+  //     "product-summary-buy-button"
+  //   ]
+  // },
+  // "product-summary-name": {
+  //   "props": {
+  //     "font": "heading-5"
+  //   }
+  // },
+  // "product-summary-space": {
+  //   "props": {
+  //     "space": "medium"
+  //   }
+  // },
+  // "product-summary-price": {
+  //   "props": {
+  //     "font": "body"
+  //   }
+  // },
+  // "product-summary-buy-button": {
+  //   "props": {
+  //     "text": "Add to Cart",
+  //     "font": "action",
+  //     "size": "small"
+  //   }
+  // },
+  // "list-context.product-list#demo1": {
+  //   "blocks": ["product-summary.shelf"],
+  //   "children": ["slider-layout#demo-products"],
+  //   "props": {
+  //     "category": "1/2/3",
+  //     "specificationFilters": [
+  //       {
+  //         "id": "brand",
+  //         "value": "Nike"
+  //       }
+  //     ],
+  //     "collection": "sale",
+  //     "orderBy": "OrderByPriceASC",
+  //     "hideUnavailableItems": false,
+  //     "maxItems": 10,
+  //     "skusFilter": "ALL_AVAILABLE",
+  //     "installmentCriteria": "MAX_WITHOUT_INTEREST",
+  //     "listName": "product-list",
+  //     "preferredSKU": "FIRST_AVAILABLE"
+  //   }
+  // },
+  // "slider-layout#demo-products": {
+  //   "props": {
+  //     "showArrows": true,
+  //     "showDots": true
+  //   }
+  // }
+}
+
+

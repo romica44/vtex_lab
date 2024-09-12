@@ -1,0 +1,118 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#desktop"]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart.v2",
+      "flex-layout.col#menu"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://veridas.com/wp-content/uploads/2021/12/neoris-logo-veridas-partners-e1640774438939.png",
+      "width": "100"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2",
+      "flex-layout.col#menu"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": []
+  },
+  "flex-layout.col#menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+     "children": ["vtex.menu@2.x:menu#websites"]
+  },
+  "vtex.menu@2.x:menu#websites": {
+  "props": {
+    "items": [
+      {
+        "id": "menu-item-nosotros",
+        "type": "custom",
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/nosotros",
+          "noFollow": false,
+          "tagTitle": "Nosotros",
+          "text": "Nosotros"
+        }
+      },
+      {
+        "id": "menu-item-contacto",
+        "type": "custom",
+        "highlight": true,
+        "itemProps": {
+          "type": "internal",
+          "href": "/contacto",
+          "noFollow": false,
+          "tagTitle": "Contacto",
+          "text": "Contacto"
+        }
+      }
+    ]
+  }
+}
+}

@@ -1,0 +1,8 @@
+{
+    "routes": [
+        {
+          "path": "/nosotros",
+          "component": "nosotros-page"
+        }
+      ]
+}   

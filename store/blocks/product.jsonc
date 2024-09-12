@@ -1,0 +1,70 @@
+{
+  "store.product": {
+    "children": [
+      // "product-summary.shelf"
+    ]
+  }
+  // "product-summary.shelf": {
+  //   "children": [
+  //     "product-summary-name",
+  //     "product-rating-inline",
+  //     "product-summary-space",
+  //     "product-summary-price",
+  //     "product-summary-buy-button"
+  //   ]
+  // },
+  // "product-summary-name": {
+  //   "props": {
+  //     "font": "heading-5"
+  //   }
+  // },
+  // "product-rating-inline": {
+  //   "props": {
+  //     "showRating": true
+  //   }
+  // },
+  // "product-summary-space": {
+  //   "props": {
+  //     "space": "medium"
+  //   }
+  // },
+  // "product-summary-price": {
+  //   "props": {
+  //     "font": "body"
+  //   }
+  // },
+  // "product-summary-buy-button": {
+  //   "props": {
+  //     "text": "Add to Cart",
+  //     "font": "action",
+  //     "size": "small"
+  //   }
+  // },
+  // "list-context.product-list#demo1": {
+  //   "blocks": ["product-summary.shelf"],
+  //   "children": ["slider-layout#demo-products"],
+  //   "props": {
+  //     "category": "1/2/3",
+  //     "specificationFilters": [
+  //       {
+  //         "id": "brand",
+  //         "value": "Nike"
+  //       }
+  //     ],
+  //     "collection": "sale",
+  //     "orderBy": "OrderByPriceASC",
+  //     "hideUnavailableItems": false,
+  //     "maxItems": 10,
+  //     "skusFilter": "ALL_AVAILABLE",
+  //     "installmentCriteria": "MAX_WITHOUT_INTEREST",
+  //     "listName": "product-list",
+  //     "preferredSKU": "FIRST_AVAILABLE"
+  //   }
+  // },
+  // "slider-layout#demo-products": {
+  //   "props": {
+  //     "showArrows": true,
+  //     "showDots": true
+  //   }
+  // }
+}
