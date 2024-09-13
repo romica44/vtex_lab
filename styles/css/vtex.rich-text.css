@@ -1,0 +1,45 @@
+.wrapper--cibermonday-modal-text {
+    background-color: #222; /* Fondo oscuro para destacar el texto luminoso */
+    border: 2px solid #ff0000; /* Borde rojo */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff; /* Color del texto blanco */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8); /* Sombra del borde */
+  }
+  
+  .wrapper--cibermonday-modal-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.3));
+    filter: blur(10px);
+    animation: pulse 1.5s infinite;
+  }
+  
+  .wrapper--cibermonday-modal-text {
+    font-size: 32px; /* Tamaño del texto principal */
+    color: #ff0000; /* Color del texto principal */
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8), 0 0 20px rgba(255, 0, 0, 0.6), 0 0 30px rgba(255, 0, 0, 0.4); /* Efecto de neón */
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0.7;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.7;
+    }
+  }

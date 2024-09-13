@@ -28,11 +28,12 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
+      "flex-layout.col#menu",
       "search-bar",
       "locale-switcher",
       "login",
-      "minicart.v2",
-      "flex-layout.col#menu"
+      "minicart.v2"
+      
     ]
   },
   "flex-layout.col#spacer": {
@@ -65,9 +66,10 @@
       "drawer",
       "logo",
       "flex-layout.col#spacer",
+      "flex-layout.col#menu",
       "login",
-      "minicart.v2",
-      "flex-layout.col#menu"
+      "minicart.v2"
+      
     ],
     "props": {
       "blockClass": "main-header-mobile",
